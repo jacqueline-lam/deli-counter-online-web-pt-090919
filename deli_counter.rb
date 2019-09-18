@@ -15,6 +15,7 @@ def line(deli)
 end
 
 def take_a_number(deli, new_customer)
+  deli << new_customer 
   puts "Welcome #{new_customer}. You are number #{(katz_deli.length + 1).to_s} in line."
 end
 
