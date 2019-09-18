@@ -9,7 +9,8 @@ def line(deli)
       line_string += " #{position + 1}. #{customer}"
     end
     
-    puts line_string #=> 
+    puts line_string 
+    #=>E.g. "The line is currently: 1. Grace 2. Kent"
   end
 end
 
